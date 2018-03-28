@@ -1,0 +1,54 @@
+1. NEWTON SECOND LAW
+
+	STORE "m" with any value
+	STORE "a" with any value
+	STORE "resultan" without any value
+	
+	CALCULATE "m" times "a"
+	SET "resultan" value with calculation result
+	
+	DISPLAY "resultan"
+
+
+2. TAHUN KABISAT - KALENDER GREGORIAN
+
+	STORE "tahun" with any value
+	
+		IF "tahun" MODULUS 4 EQUALS 0 AND "tahun" MODULUS 100 NOT EQUALS 0 THEN
+			DISPLAY  "tahun" adalah tahun kabisat
+	
+		ELSE IF "tahun" MODULUS 4 EQUALS 0 AND "tahun" MODULUS 100 EQUALS 0 AND 	"tahun" MODULUS 400 EQUALS 0 THEN 
+			DISPLAY "tahun" adalah tahun kabisat
+	
+		ELSE DISPLAY "tahun" bukan tahun kabisat
+
+
+3.  LAUNDRY DAY
+	
+	STORE "counter" with 0
+	
+	WHILE "counter" < 20
+		add "counter" by 1
+	END WHILE
+	
+	DISPLAY mesin menyala
+
+
+4. PERIKSA KUKU
+	
+	STORE jmlsiswa with 0
+
+	WHILE "jmlsiswa" < 40
+		if "jmlsiswa" EQUALS 'kuku panjang' THEN
+			DISPLAY siswa dihukum
+		ELSE DISPLAY siswa diberi pujian
+	END WHILE
+			
+
+
+
+
+
+
+
+	
