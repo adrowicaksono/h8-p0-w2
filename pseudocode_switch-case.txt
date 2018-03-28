@@ -1,0 +1,36 @@
+STORE tanggal any value
+STORE bulan any value
+STORE tahun any value
+
+STORE tampil with ''
+
+	if tanggal > 0 AND tanggal < 32 AND bulan > 0 AND bulan < 32 AND tahun > 0 AND tahun < 2201 THEN
+	
+		SWITCH bulan 
+			CASE 1 : SET tampil by tanggal add januari add tahun
+			BREAK
+			CASE 2 : SET tampil by tanggal add februari add tahun
+			BREAK
+			CASE 3 : SET tampil by tanggal add maret add tahun
+			BREAK
+			CASE 4 : SET tampil by tanggal add april add tahun
+			BREAK
+			CASE 5 : SET tampil by tanggal add mei add tahun
+			BREAK
+			CASE 6 : SET tampil by tanggal add juni add tahun
+			BREAK
+			CASE 7 : SET tampil by tanggal add juli add tahun
+			BREAK
+			CASE 8 : SET tampil by tanggal add agustus add tahun
+			BREAK
+			CASE 9 : SET tampil by tanggal add september add tahun
+			BREAK
+			CASE 10 : SET tampil by tanggal add oktober add tahun
+			BREAK
+			CASE 11 : SET tampil by tanggal add november add tahun
+			BREAK
+			CASE 12 : SET tampil by tanggal add desember add tahun
+			BREAK
+		DISPLAY tampil
+		
+		ELSE DISPLAY tanggal tidak tersedia

@@ -1,0 +1,25 @@
+STORE nama with any value
+STORE peran with any value
+
+if "nama" and "peran" is undefine THEN  
+	DISPLAY Nama harus diisi
+
+	ELSE DIPLAY "nama", PIlih peranmu untuk memulai game!
+
+if "peran" is ksatria THEN
+	DISPLAY 
+		Selamat datang di dunia Proxytia, "nama"
+		Halo "peran" "nama", kamu dapat menyerang dengan senjatamu!
+
+Else if "peran" is tabib
+	DISPLAY
+		Selamat datang di dunia Proxytia, "nama"
+		Halo "peran" "nama", kamu akan membantu temanmu yang terluka.
+
+Else if "peran" is penyihir
+	DISPLAY
+		Selamat datang di dunia Proxytia, "nama"
+		Halo "peran" "nama", ciptakan keajaiban yang membantu kemenaganmu !
+
+
+
